@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./Images/fabian-moller-401625-ConvertImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: scroll;
+}
+
+.wrapper {
+  height: 100vh;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+#canv {
+  border: 5px solid white;
+}
+
+h1 {
+  color: white;
+  font-family: 'helvetica neue';
+  font-size: 120px;
+  align-self: center;
+}
+
+h2 {
+  color: white;
+  font-family: 'helvetica neue';
+  font-size: 70px;
+}
+
+p {
+  color: white;
+  font-family: 'helvetica neue';
+}
+
+#registerArea {
+  padding-bottom: 80px;
+}
+
+#register-form {
+  z-index: 2;
+}
+
+#signatureArea {
+  font-size: 50px;
+}
+
+#signatureBox {
+  border: 5px solid white;
+  width: 510px;
+  height: 90px;
+  margin: auto;
+}
+
+#thankYouArea {
+  margin-bottom: 10px;
+}
+
+#listArea {
+  font-family: 'helvetica neue';
+  font-size: 50px;
+  color: white;
+}
+
+#city-signers {
+  font-family: 'helvetica neue';
+  font-size: 50px;
+  color: white;
+}
+
+.button {
+  font-style: 'helvetica neue';
+  color: white;
+  background: none;
+  font-size: 20px;
+}
+
+input {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: 'helvetica neue';
+  font-size: 20px;
+}
+
+ul {
+  text-transform: capitalize;
+}
+
+a {
+  color: white;
+  font-family: 'helvetica neue';
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.error-message {
+  font-family: 'helvetica neue';
+  color: white;
+  font-size: 50px;
+
+}
+
+#city-peeps {
+  font-size: 75px;
+  margin: 5%;
+
+}

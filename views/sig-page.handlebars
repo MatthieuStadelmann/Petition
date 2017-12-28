@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <div id="listArea">
+    <ul>
+      {{#each infos}}
+        <li style="list-style-type:none;"><a href="https://{{url}}"> {{first}} {{last}}</a> ({{age}} <a href="./sig-page/{{city}}">{{city}})</a></li>
+      {{/each}}
+    </ul>
+    <a href="/thank-you"><button class="button">BACK</button></a>
+  </div>
+</div>

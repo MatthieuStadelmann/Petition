@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <div id="edit-area">
+    <h1>EDIT YOUR PROFILE</h1>
+    <form action="update" method="post">
+      <input type="hidden" name="_csrf" value="{{csrfToken}}">
+      {{#infos}}
+        <div class="inputs">
+          <input type="text" placeholder="First Name" name="first" value="{{first}}">
+          <input type="text" placeholder="Last Name" name="last" value="{{last}}">
+          <input type="email" placeholder="Email Address" name="email" value="{{email}}">
+          <input type="password" placeholder="" name="password" value="">
+          <input type="age" placeholder="Age" name="age" value="{{age}}">
+          <input type="text" placeholder="City" name="city" value="{{city}}">
+          <input type="text" placeholder="Homepage" name="url" value="{{url}}">
+          <button class="button">UPDATE</button>
+        </div>
+      {{/infos}}
+    </form>
+  </div>
+  <a href="/"><button class="button">BACK</button></a>
+</div>

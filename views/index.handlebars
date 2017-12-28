@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <div id="signatureArea">
+    <p>SIGN OUR PETITION TO SHOW YOUR SUPPORT FOR UNIVERSAL INCOME</p>
+  </div>
+  <form action="/signed" method="POST">
+    <div class="inputs">
+      <canvas id="canv" width="500" height="80px"></canvas>
+      <input type="hidden" name="_csrf" value="{{csrfToken}}">
+      <input type="hidden" name="signature" value="">
+    </div>
+    <div class="inputs">
+      <button class="button">SUBMIT</button>
+    </div>
+  </form>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="/public/signature.js"></script>
