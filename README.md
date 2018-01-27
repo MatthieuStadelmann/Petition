@@ -5,7 +5,7 @@ Petition using AngularJS & Node.js
 Full stack project where users can sign a petition and then access to all the sign-ups.
 
 ## Technology
-This application was built with AngularJS, Node.js & Jquery. 
+This application was built with Handlebars, Node.js & Jquery. 
 
 ## Link
 https://ms-petition.herokuapp.com/
